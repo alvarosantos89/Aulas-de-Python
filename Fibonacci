@@ -1,0 +1,21 @@
+a = 0
+b = 1
+c = 2
+controle = 0
+
+numero = int(input('Digite a sequência do número desejado: '))
+
+num = [0 for x in range(numero+2)]
+num[a] = 1
+num[b] = 1
+
+while controle < numero:
+    num[c] = num[a] + num[b]
+
+    a = a + 1
+    b = b + 1
+    c = c + 1
+
+    controle = controle + 1
+
+print('O numero é: ', num[numero-1])
