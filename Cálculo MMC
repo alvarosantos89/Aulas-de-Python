@@ -1,0 +1,25 @@
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+n = 2
+mmc = 1
+controle = False
+
+while num1 > 1 or num2 > 1:
+
+    if num1 % n == 0:
+       num1 = num1 / n
+       controle = True
+       
+    if num2 % n == 0:
+       num2 = num2 / n
+       controle = True
+               
+    if controle == True:
+        mmc = mmc * n
+    else:
+        n = n + 1
+
+    controle = False
+
+
+print("O valor do MMC é: ", mmc)
