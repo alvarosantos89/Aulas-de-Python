@@ -1,0 +1,16 @@
+#6. Faça um programa que receba do usuario um arquivo texto. Crie outro arquivo texto contendo o texto do arquivo de entrada, mas com as vogais substituídas por ‘*’.
+
+arq1 = open("texto.txt", "r")
+lines = arq1.read()
+arq2 = open("texto_r.txt", "w")
+
+for line in lines:
+    line = line.replace("a", "*")
+    line = line.replace("e", "*")
+    line = line.replace("i", "*")
+    line = line.replace("o", "*")
+    line = line.replace("u", "*")
+    arq2.write(line)
+
+arq1.close()
+arq2.close()
