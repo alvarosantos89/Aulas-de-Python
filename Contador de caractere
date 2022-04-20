@@ -1,0 +1,6 @@
+#4. Faça um programa que receba do usuário um arquivo texto e um caractere. Mostre na tela quantas vezes aquele caractere ocorre dentro do arquivo.
+
+arq = open("texto.txt", "r")
+arquivo = arq.read()
+letra = input("Insira a letra a ser contabilizada: ")
+print("Quantidade de ocorrência da letra: ",  arquivo.count(letra))
