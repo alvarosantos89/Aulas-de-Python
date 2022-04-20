@@ -1,0 +1,12 @@
+#2. Faça um programa que receba do usuário um arquivo texto e mostre na tela quantas letras são vogais.
+
+arq = open("texto.txt", "r")
+arquivo = arq.read()
+a = arquivo.count("a")
+e = arquivo.count("e")
+i = arquivo.count("i")
+o = arquivo.count("o")
+u = arquivo.count("u")
+total = a + e + i + o + u
+print("Total de vogais no texto: ",  total)
+arq.close()
