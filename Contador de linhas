@@ -1,0 +1,7 @@
+#1. Faça um programa que receba do usuário um arquivo texto e mostre na tela quantas linhas esse arquivo possui.
+
+arq = open("texto.txt", "r")
+arquivo = arq.read()
+linha = arquivo.count("\n")
+print("Total de linhas no texto: ",  linha)
+arq.close()
