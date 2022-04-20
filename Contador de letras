@@ -1,0 +1,59 @@
+ #5. Faça um programa que receba do usuário um arquivo texto e mostre na tela quantas vezes cada letra do alfabeto aparece dentro do arquivo.
+
+arq = open("texto.txt", "r")
+arquivo = arq.read()
+print("Quantidade de ocorrência da letras do alfabeto: ")
+if arquivo.count("a") > 0:
+    print("-A: ", arquivo.count("a"))
+if arquivo.count("b") > 0:
+    print("-B: ", arquivo.count("b"))
+if arquivo.count("c") > 0:
+    print("-C: ", arquivo.count("c"))
+if arquivo.count("d") > 0:
+    print("-D: ", arquivo.count("d"))
+if arquivo.count("e") > 0:
+    print("-E: ", arquivo.count("e"))
+if arquivo.count("f") > 0:
+    print("-F: ", arquivo.count("f"))
+if arquivo.count("g") > 0:
+    print("-G: ", arquivo.count("g"))
+if arquivo.count("h") > 0:
+    print("-H: ", arquivo.count("h"))
+if arquivo.count("i") > 0:
+    print("-I: ", arquivo.count("i"))
+if arquivo.count("j") > 0:
+    print("-J: ", arquivo.count("j"))
+if arquivo.count("k") > 0:
+    print("-K: ", arquivo.count("k"))
+if arquivo.count("l") > 0:
+    print("-L: ", arquivo.count("l"))
+if arquivo.count("m") > 0:
+    print("-M: ", arquivo.count("m"))
+if arquivo.count("n") > 0:
+    print("-N: ", arquivo.count("n"))
+if arquivo.count("o") > 0:
+    print("-O: ", arquivo.count("o"))
+if arquivo.count("p") > 0:
+    print("-P: ", arquivo.count("p"))
+if arquivo.count("q") > 0:
+    print("-Q: ", arquivo.count("q"))
+if arquivo.count("r") > 0:
+    print("-R: ", arquivo.count("r"))
+if arquivo.count("s") > 0:
+    print("-S: ", arquivo.count("s"))
+if arquivo.count("t") > 0:
+    print("-T: ", arquivo.count("t"))
+if arquivo.count("u") > 0:
+    print("-U: ", arquivo.count("u"))
+if arquivo.count("v") > 0:
+    print("-V: ", arquivo.count("v"))
+if arquivo.count("w") > 0:
+    print("-W: ", arquivo.count("w"))
+if arquivo.count("x") > 0:
+    print("-X: ", arquivo.count("x"))
+if arquivo.count("y") > 0:
+    print("-Y: ", arquivo.count("y"))
+if arquivo.count("z") > 0:
+    print("-Z: ", arquivo.count("z"))
+
+arq.close()
